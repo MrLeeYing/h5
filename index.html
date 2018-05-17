@@ -2,18 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>github pages</title>
+    <title>唐诗一首</title>
     <style type="text/css">
         body{
-            background-image:url{./images/bg.jpg};
-            backgruond-size:100% 100%;
-            height:100%;
+            background-image:url(images/bg.jpg);
+            background-size: 100% 100%;
+            height: 100%;
+        }
+        html{
+            height: 100%;
+        }
+        @keyframes first {
+            from{opacity: 0;}
+            to{opacity:100;}
+        }
+        h1,p{
+           animation: first 1s infinite;
         }
     </style>
 </head>
 
 <body>
-<p>我的试验网页</p>
-<p>增加内容</p>
+
+<h1>静夜思</h1>
+<p>床前明月光</p>
+<p>疑似地上霜</p>
+<p>举头望明月</p>
+<p>低头思故乡</p>
 </body>
 </html>
